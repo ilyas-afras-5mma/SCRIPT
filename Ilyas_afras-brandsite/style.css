@@ -64,7 +64,13 @@ header input {
 img {
     width: 350px;
     height: 350 px;
+    display: block;
+    margin : 0 auto
 
+}
+
+.invert {
+    filter: invert(1);
 }
 
 .yellow {
@@ -82,27 +88,18 @@ video {
 }
 
 
-
-
 .flex-item {
     flex: 1;
 }
 
- h2{
+h2 {
     text-align: center;
     padding: 5%;
     text-decoration: underline;
     text-underline-offset: 2rem;
     font-family: Roboto Condensed, sans-serif;
- }
+}
 
- .insta {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  
- }
 
 button {
     display: block;
@@ -112,5 +109,81 @@ button {
     background-color: black;
     color: white;
     height: 3rem;
-  
+
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto Condensed, sans-serif;
+}
+
+footer .flex-container {
+    align-items: start;
+    text-align: left;
+}
+
+footer li:first-child {
+    margin-bottom: 1.5rem;
+}
+
+footer li {
+    list-style: none;
+    color: white;
+}
+
+footer li:first-child {
+    color:  gold;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+footer input[type="email"],
+footer input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+footer input[type="submit"] {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.invert {
+    width: 125px;
+    height: 125px;
+}
+
+.social-icons {
+width: 100vw; 
+display: flex; 
+justify-content: center;
+
+
+}
+.social-icons a {
+ color: white;
+ font-size: 2rem;
+ padding: 0 0.5rem;
+}
+
+footer i:hover {
+transform: scale(1.5);
+
+
 }
