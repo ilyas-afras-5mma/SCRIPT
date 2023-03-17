@@ -10,12 +10,13 @@
 
 body {
     background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 /* hoofding */
 header {
     background-color: rgb(255, 255, 255);
-    font-family: Roboto Condensed, sans-serif;
 }
 
 .logo {
@@ -65,8 +66,7 @@ img {
     width: 350px;
     height: 350 px;
     display: block;
-    margin : 0 auto
-
+    margin: 0 auto
 }
 
 .invert {
@@ -97,7 +97,6 @@ h2 {
     padding: 5%;
     text-decoration: underline;
     text-underline-offset: 2rem;
-    font-family: Roboto Condensed, sans-serif;
 }
 
 
@@ -117,7 +116,6 @@ footer {
     background-color: black;
     font-size: 15px;
     color: rgb(255, 255, 255);
-    font-family: Roboto Condensed, sans-serif;
 }
 
 footer .flex-container {
@@ -135,7 +133,7 @@ footer li {
 }
 
 footer li:first-child {
-    color:  gold;
+    color: gold;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -170,20 +168,20 @@ footer input[type="submit"] {
 }
 
 .social-icons {
-width: 100vw; 
-display: flex; 
-justify-content: center;
+    display: flex;
+    justify-content: center;
 
 
 }
+
 .social-icons a {
- color: white;
- font-size: 2rem;
- padding: 0 0.5rem;
+    color: white;
+    font-size: 2rem;
+    padding: 0 0.5rem;
 }
 
 footer i:hover {
-transform: scale(1.5);
+    transform: scale(1.5);
 
 
 }
