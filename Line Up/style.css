@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+header {
+	background-color: #18223B;
+	color: #fff;
+	padding: 20px;
+	
+	}
+	#nav {
+		text-align: center;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	header nav li {
+		display: inline-block;
+	}
+	header nav a {
+		display: block;
+		color: rgb(255, 255, 255);
+		padding: 20px;
+		text-decoration: none;
+	}
+	header nav :hover {
+		color: rgb(255, 255, 255);
+	}
+	.flex-container{
+		text-align: center;
+		display: flex;
+		justify-content: space-between;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	.align-center {
+		align-items: center;
+	}
+
+main {
+    padding: 5vw 15vw;
+	background-color: gainsboro
+}
+
+
+.grid-item:hover img {
+ transform: scale(1.1);
+
+
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+
+}
+
+.grid-item {
+	font-size: 24px;
+	text-align: center;
+    object-fit: cover;
+}
+
+footer {
+	background-color: #18223B;
+	padding: 20px;
+	text-align: center;
+    padding: 20px;
+	color: white;
+	
+	
+  }
+
+  .social-media a {
+    color: #ccc;
+    margin-right: 10px;
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+#logo {
+	width: 7rem;
+	height: 6rem;
+}
+
