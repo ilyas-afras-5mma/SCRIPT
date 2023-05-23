@@ -1,0 +1,56 @@
+/* Custom styles for the landing page */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #0080ff;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust the image size */
+.img-smaller {
+  max-width: 200px;
+}
+
+footer {
+  background-color: #0080ff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+}

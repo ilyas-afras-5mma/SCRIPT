@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+
+font{
+  font-family: Arial, sans-serif;
+
+
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+header {
+	background-color: #18223B;
+	color: #fff;
+	padding: 20px;
+	
+	}
+	#nav {
+		text-align: center;
+	}
+	header nav li {
+		display: inline-block;
+	}
+	header nav a {
+		display: block;
+		color: rgb(255, 255, 255);
+		padding: 20px;
+		text-decoration: none;
+	}
+	header nav :hover {
+		color: rgb(255, 255, 255);
+	}
+	.flex-container{
+		text-align: center;
+		display: flex;
+		justify-content: space-between;
+	
+	}
+	.align-center {
+		align-items: center;
+	}
+
+main {
+    padding: 5vw 15vw;
+	background-color: gainsboro
+
+}
+
+
+.grid-item:hover img {
+ transform: scale(1.1);
+
+
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+
+}
+
+.grid-item {
+	font-size: 24px;
+	text-align: center;
+    object-fit: cover;
+}
+
+footer {
+	background-color: #18223B;
+	padding: 20px;
+	text-align: center;
+    padding: 20px;
+	color: white;
+	
+	
+  }
+
+  .social-media a {
+    color: #ccc;
+    margin-right: 10px;
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+#logo {
+	width: 7rem;
+	height: 6rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  }
+  
+  .artist-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .artist-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .artist-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+  }
