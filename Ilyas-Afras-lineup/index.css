@@ -133,6 +133,6 @@ p {
 
 #act {
 display: block;
-size: 2rem;
-
+width: 50%;
+margin: 0 auto;
 }
