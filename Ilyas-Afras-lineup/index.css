@@ -1,54 +1,67 @@
 body {
 	margin: 0;
 	padding: 0;
-	
+
 }
 
 img {
-    display: block;
-    width: 100%;
+	display: block;
+	width: 100%;
 }
 
 header {
 	background-color: #18223B;
 	color: #fff;
 	padding: 20px;
-	
-	}
-	#nav {
-		text-align: center;
-	}
-	header nav li {
-		display: inline-block;
-	}
-	header nav a {
-		display: block;
-		color: rgb(255, 255, 255);
-		padding: 20px;
-		text-decoration: none;
-	}
-	header nav :hover {
-		color: rgb(255, 255, 255);
-	}
-	.flex-container{
-		text-align: center;
-		display: flex;
-		justify-content: space-between;
-	
-	}
-	.align-center {
-		align-items: center;
-	}
+
+}
+
+#nav {
+	text-align: center;
+}
+
+header nav li {
+	display: inline-block;
+}
+
+header nav a {
+	display: block;
+	color: rgb(255, 255, 255);
+	padding: 20px;
+	text-decoration: none;
+}
+
+header nav :hover {
+	color: rgb(255, 255, 255);
+}
+
+header input#burger {
+	display: none;
+}
+
+header label[for="burger"] {
+	display: none;
+}
+
+.flex-container {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.align-center {
+	align-items: center;
+}
 
 main {
-    padding: 5vw 15vw;
+	padding: 5vw 15vw;
 	background-color: gainsboro
-
 }
 
 
 .grid-item:hover img {
- transform: scale(1.1);
+	transform: scale(1.1);
 
 
 }
@@ -63,38 +76,57 @@ main {
 .grid-item {
 	font-size: 24px;
 	text-align: center;
-    object-fit: cover;
+	object-fit: cover;
 }
 
 footer {
 	background-color: #18223B;
 	padding: 20px;
 	text-align: center;
-    padding: 20px;
+	padding: 20px;
 	color: white;
-	
-	
-  }
 
-  .social-media a {
-    color: #ccc;
-    margin-right: 10px;
-    font-size: 30px;
-  }
 
-  p {
-    font-size: 14px;
-    margin-top: 10px;
-  }
+}
+
+.social-media a {
+	color: #ccc;
+	margin-right: 10px;
+	font-size: 30px;
+}
+
+p {
+	font-size: 14px;
+	margin-top: 10px;
+}
 
 #logo {
 	width: 7rem;
 	height: 6rem;
 }
 
-#searchbar{
+@media (width <=750px) {
+	header label[for="burger"] {
+		position: fixed;
+		top: 1rem;
+		right: 1rem;
+		display: block;
+	}
 
+	header nav ul {
+		display: none;
+	}
 
+	header input#burger:checked+label[for="burger"]+nav ul {
+		position: fixed;
+		top: 1rem;
+		right: 1rem;
+		display: flex;
+		flex-direction: column;
+		background-color: #18223B;
+	}
 
-
+	#lineup .grid-container {
+		grid-template-columns: 1fr 1fr;
+	}
 }
