@@ -130,3 +130,9 @@ p {
 		grid-template-columns: 1fr 1fr;
 	}
 }
+
+#act {
+display: block;
+size: 2rem;
+
+}
